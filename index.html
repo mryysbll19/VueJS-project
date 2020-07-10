@@ -12,9 +12,9 @@
  <div id="vue-app"> 
  <h1>Looping through list</h1>
  <ul>
-     <li v-for="(character.index) in characters">{{index}} . {{ character }}</li>
+     <li v-for="(character.index) in characters"> {{index}} . {{ characters }}</li>
  </ul>
- <ul>
+ <!--<ul>
     <li v-for="(ninja.index) in ninjas">{{index}} . {{ninja.name}} - {{ninja.age}}</li>
 </ul>
  <template v-for="(ninja.index) in ninjas">
@@ -25,7 +25,7 @@
      <div v-for="(val,key) in ninja">
          <p> {{ key }} - {{ val }} </p>
      </div>
- </template>
+ </template> -->
 
  </div>
     <script src="app.js"></script>
